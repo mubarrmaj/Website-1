@@ -1,0 +1,824 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --ButtonColor: rgb(17, 27, 71);
+}
+
+h2, h3, h4{
+    color: rgb(9, 17, 51);
+}
+
+h2{
+    font-size: 1.8vw;
+}
+
+h4{
+    font-size: 1.3vw;
+}
+
+p{
+    font-size: 1.2vw;
+}
+
+.btn:hover{
+    background-color: rgb(80, 95, 152);
+    cursor: pointer;
+}
+
+.main1{
+    background-image: url(imgs/designer_1.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 4vw;
+    top: 0;
+    left: 0;
+}
+
+.navBar{
+    margin: 0 0 0 10vw;
+}
+
+.navBar ul{
+    display: flex;
+    list-style: none;
+    gap: 4vw;
+}
+
+.headerBtn{
+    margin: 0 10vw 0 0;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+    width: 10vw;
+    height: auto;
+    background-color: var(--ButtonColor);
+    border: 1px solid var(--ButtonColor);
+}
+
+.headerBtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: rgb(80, 95, 152);
+    font-size: 1.1vw;
+}
+
+.heroSection{
+    text-align: Left;
+    margin: 0;
+    padding: 15vw 47vw 10vw 10vw;
+    height: 55vw;
+    width: 100%;
+}
+
+.heroSection h2{
+    margin-bottom: 1.5vw;
+    font-size: 3vw;
+}
+
+.heroSection p{
+    margin: 1vw 0 0 0;
+    padding: 0 10vw 0 0;
+    color: rgb(80, 95, 152);
+}
+
+.heroBtn1{
+    margin: 3vw 2vw 0 0;
+    padding: 0.2vw;
+    width: 12vw;
+    height: auto;
+    background-color: var(--ButtonColor);
+    border: 1px solid var(--ButtonColor);
+}
+
+.heroBtn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.heroBtn2{
+    margin: 3vw 2vw 0 0;
+    padding: 0.2vw;
+    width: 12vw;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid var(--ButtonColor);
+}
+
+.heroBtn2 a{
+    text-decoration: none;
+    color: var(--ButtonColor);
+    font-size: 0.9vw;
+}
+
+.section2{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    padding: 2vw 10vw 2vw 10vw;
+}
+
+.section2Left{
+    text-align: left;
+    width: 50%;
+}
+
+.section2Left h2{
+    margin: 1vw 0 0 0;
+}
+
+.section2Left p{
+    margin: 1vw 0 0 0;
+    color: rgb(111, 124, 178);
+}
+
+.section2LeftInnerDiv{
+    display: flex;
+    margin: 4vw 0 0 0;
+}
+
+.section2LeftInnerDiv p{
+    color: rgb(93, 105, 112);
+}
+
+.section2LeftSubDiv h4{
+    margin: 0.5vw 0 0 0;
+}
+
+.section2LeftSubDiv img{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+#section2LeftSubDiv1{
+    margin: 0 0.9vw 0 0;
+}
+
+#section2LeftSubDiv2{
+    margin: 0 0 0 0.9vw;
+}
+
+.section2Right{
+    width: 50%;
+}
+
+.section3{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    padding: 2vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.section3Left{
+    width: 50%;
+    height: 80%;
+}
+
+.section3Right{
+    width: 50%;
+    text-align: left;
+}
+
+.section3 h2{
+    margin: 0 0 1vw 0;
+}
+
+.section3 p{
+    margin: 1vw 0 0 0;
+    color: rgb(111, 124, 178);
+}
+
+.section4{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    padding: 2vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.section4Left{
+    width: 50%;
+    height: 80%;
+}
+
+.section4Right{
+    width: 50%;
+    text-align: left;
+}
+
+.section4 h2{
+    margin: 0 0 1vw 0;
+}
+
+.section4 p{
+    margin: 1vw 0 0 0;
+    color: rgb(111, 124, 178);
+}
+
+.section5{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    padding: 2vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.section5Left{
+    width: 50%;
+    height: 80%;
+}
+
+.section5Right{
+    width: 50%;
+    text-align: left;
+}
+
+.section5 h2{
+    margin: 0 0 1vw 0;
+}
+
+.section5 p{
+    margin: 1vw 0 0 0;
+    color: rgb(111, 124, 178);
+}
+.section5Btn{
+    margin: 2vw 0 0 0;
+    padding: 0.2vw;
+    width: 10vw;
+    height: auto;
+    background-color: var(--ButtonColor);
+    border: 1px solid var(--ButtonColor);
+}
+
+.section5Btn a{
+    text-decoration: none;
+    Color: white;
+    font-size: 0.9vw;
+}
+
+.section6{
+    margin: 0;
+    text-align: center;
+    padding: 13vw 30vw 10vw 30vw;
+    /* background-color: rgb(243, 245, 255); */
+    height: 43vw;
+    background-image: url(imgs/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section6Div1{
+    padding: 1vw;
+}
+
+.section6Div1 h2{
+    margin: 0 0 1vw 0;
+    font-size: 2vw;
+}
+
+.section6Div1 p{
+    margin: 1vw 0 0 0;
+    color: rgb(111, 124, 178);
+}
+
+.section6Div2{
+    padding: 1vw;
+}
+
+.section6Div2 h2{
+    color: rgb(34, 47, 101);
+    font-size: 2.5vw;
+}
+
+.section6Div2 p{
+    margin: 1vw 0 0 0;
+    color: rgb(55, 68, 126);
+}
+
+.section6Div3{
+    padding: 1vw;
+}
+
+.section6Div3 p{
+    color: rgb(93, 105, 112);
+    font-size: 0.8vw;
+}
+
+.section6Btn{
+    margin: 0.5vw 0 0 0;
+    padding: 0.2vw;
+    width: 12vw;
+    height: auto;
+    background-color: var(--ButtonColor);
+    border: 1px solid var(--ButtonColor);
+}
+
+.section6Btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.footer{
+    margin: 0;
+    padding: 1vw;
+    background-color: rgb(231, 236, 255);
+}
+
+.footerDiv1{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 0 1.5vw 0;
+    padding: 0 2vw 0 2vw;
+}
+
+.footerDiv1 p{
+    color: rgb(147, 158, 164);
+    margin: 0 0 0 4vw;
+}
+
+.footerBtn{
+    margin: 0 4vw 0 0;
+    padding: 0.4vw;
+    width: 10vw;
+    height: auto;
+    background-color: var(--ButtonColor);
+    border: 1px solid var(--ButtonColor);
+}
+
+.footerBtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8vw;
+}
+
+hr{
+    color: rgb(205, 209, 212);
+}
+
+.footerDiv2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vw 0 0.7vw 0;
+    padding: 0 2vw 0 2vw;
+}
+
+.footerNav ul{
+    display: flex;
+    gap: 4vw;
+    list-style: none;
+    margin: 0 0 0 4vw;
+}
+
+.footerNav a{
+    text-decoration: none;
+    color: rgb(146, 158, 204);
+    font-size: 1.1vw;
+}
+
+.footerSocialIcons{
+    display: flex;
+    gap: 2vw;
+    margin: 0 4vw 0 0;
+}
+
+.footerSocialIcons a{
+    text-decoration: none;
+    color: rgb(176, 184, 188);
+}
+
+.footerSocialIcons img{
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+/* Media Query is starting from here */
+
+@media screen and (max-width: 650px){
+    *{
+        margin : 0;
+        padding : 0;
+        box-sizing : border-box;
+        font-family: sans-serif;
+    }
+    
+    :root{
+        --ButtonColor: rgb(17, 27, 71);
+    }
+    
+    h2, h3, h4{
+        color: rgb(9, 17, 51);
+    }
+    
+    h2{
+        font-size: 5.5vw;
+    }
+    
+    h4{
+        font-size: 4vw;
+    }
+    
+    p{
+        font-size: 3vw;
+    }
+    
+    .btn:hover{
+        background-color: rgb(80, 95, 152);
+        cursor: pointer;
+    }
+    
+    .main1{
+        background-image: url(imgs/designer_1.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: right;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        height: 4vw;
+    }
+    
+    .navBar{
+        margin: 6vw 0 0 10vw;
+    }
+    
+    .navBar ul{
+        display: flex;
+        list-style: none;
+        gap: 6vw;
+    }
+
+    .navBar li a{
+        text-decoration: none;
+        color: rgb(80, 95, 152);
+        font-size: 2.5vw;
+    }
+    
+    .headerBtn{
+        margin: 6vw 10vw 0 0;
+        width: 17vw;
+        height: 5vw;
+        background-color: var(--ButtonColor);
+        border: 1px solid var(--ButtonColor);
+    }
+    
+    .headerBtn a{
+        text-decoration: none;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .heroSection{
+        text-align: center;
+        margin: 0;
+        height: 100vw;
+        width: 100%;
+    }
+    
+    .heroSection h2{
+        margin-bottom: 1.5vw;
+        font-size: 5vw;
+    }
+    
+    .heroSection p{
+        margin: 1vw 0 0 0;
+        padding: 2vw;
+        color: rgb(80, 95, 152);
+    }
+    
+    .heroBtn1{
+        margin: 3vw 2vw 0 0;
+        width: 17vw;
+        height: 5vw;
+        background-color: var(--ButtonColor);
+        border: 1px solid var(--ButtonColor);
+    }
+    
+    .heroBtn1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .heroBtn2{
+        margin: 3vw 2vw 0 0;
+        width: 17vw;
+        height: 5vw;
+        background-color: transparent;
+        border: 1px solid var(--ButtonColor);
+    }
+    
+    .heroBtn2 a{
+        text-decoration: none;
+        color: var(--ButtonColor);
+        font-size: 2.5vw;
+    }
+    
+    .section2{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4vw;
+        align-items: center;
+        margin-top: 5vw;
+        padding: 2vw 10vw 2vw 10vw;
+    }
+    
+    .section2Left{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .section2Left h2{
+        margin: 1vw 0 0 0;
+    }
+    
+    .section2Left p{
+        margin: 2.5vw 0 0 0;
+        color: rgb(111, 124, 178);
+    }
+    
+    .section2LeftInnerDiv{
+        display: flex;
+        gap: 5vw;
+        margin: 4vw 0 0 0;
+    }
+
+    .section2LeftInnerDiv img{
+        width: 10vw;
+        height: 10vw;
+    }
+    
+    .section2LeftInnerDiv p{
+        color: rgb(93, 105, 112);
+    }
+    
+    .section2LeftSubDiv h4{
+        margin: 0.5vw 0 0 0;
+    }
+    
+    #section2LeftSubDiv1{
+        margin: 0 0.9vw 0 0;
+    }
+    
+    #section2LeftSubDiv2{
+        margin: 0 0 0 0.9vw;
+    }
+    
+    .section2Right{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section3{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+        margin-top: 5vw;
+        padding: 2vw 10vw 2vw 10vw;
+        height: auto;
+    }
+    
+    .section3Left{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section3Right{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section3 h2{
+        margin: 0 0 1vw 0;
+    }
+    
+    .section3 p{
+        margin: 2.5vw 0 0 0;
+        color: rgb(111, 124, 178);
+    }
+    
+    .section4{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+        padding: 2vw 10vw 2vw 10vw;
+        margin-top: 5vw;
+        height: auto;
+    }
+    
+    .section4Left{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section4Right{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section4 h2{
+        margin: 0 0 1vw 0;
+    }
+    
+    .section4 p{
+        margin: 2.5vw 0 0 0;
+        color: rgb(111, 124, 178);
+    }
+    
+    .section5{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+        padding: 2vw 10vw 2vw 10vw;
+        margin-top: 5vw;
+        height: auto;
+    }
+    
+    .section5Left{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section5Right{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section5 h2{
+        margin: 0 0 1vw 0;
+    }
+    
+    .section5 p{
+        margin: 2.5vw 0 0 0;
+        color: rgb(111, 124, 178);
+    }
+    .section5Btn{
+        margin: 4vw 0 0 0;
+        padding: 1vw;
+        width: 25vw;
+        height: 8vw;
+        background-color: var(--ButtonColor);
+        border: 1px solid var(--ButtonColor);
+    }
+    
+    .section5Btn a{
+        text-decoration: none;
+        Color: white;
+        font-size: 3vw;
+    }
+    
+    .section6{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        height: auto;
+        width: 100%;
+        background-image: url(imgs/Rectangle.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .section6Div1{
+        padding: 1vw;
+        width: 100%;
+    }
+    
+    .section6Div1 h2{
+        margin: 10vw 0 1vw 0;
+        font-size: 5vw;
+    }
+    
+    .section6Div1 p{
+        margin: 3vw 0 0 0;
+        color: rgb(111, 124, 178);
+        width: 100%;
+    }
+    
+    .section6Div2{
+        padding: 1vw;
+    }
+    
+    .section6Div2 h2{
+        color: rgb(34, 47, 101);
+        font-size: 7vw;
+    }
+    
+    .section6Div2 p{
+        margin: 1vw 0 0 0;
+        color: rgb(55, 68, 126);
+    }
+    
+    .section6Div3{
+        padding: 1vw;
+    }
+    
+    .section6Div3 p{
+        color: rgb(93, 105, 112);
+        font-size: 2vw;
+        margin: 1vw 0 0 0;
+    }
+    
+    .section6Btn{
+        margin: 2vw 0 0 0;
+        padding: 1vw;
+        width: 25vw;
+        height: 8vw;
+        background-color: var(--ButtonColor);
+        border: 1px solid var(--ButtonColor);
+    }
+    
+    .section6Btn a{
+        text-decoration: none;
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .footer{
+        margin: 0;
+        padding: 1vw;
+        background-color: rgb(231, 236, 255);
+    }
+    
+    .footerDiv1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footerDiv1 p{
+        color: rgb(147, 158, 164);
+    }
+    
+    .footerBtn{
+       display: none;
+    }
+    
+    hr{
+        color: rgb(205, 209, 212);
+        width: 70%;
+        margin: auto;
+    }
+    
+    .footerDiv2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5vw 0 0.7vw 0;
+        padding: 0 2vw 0 2vw;
+    }
+    
+    .footerNav ul{
+        display: flex;
+        gap: 8vw;
+        list-style: none;
+    }
+    
+    .footerNav a{
+        text-decoration: none;
+        color: rgb(146, 158, 204);
+        font-size: 2.5vw;
+    }
+    
+    .footerSocialIcons{
+        display: flex;
+        gap: 7vw;
+        margin: 3vw 0 3vw 0;
+    }
+    
+    .footerSocialIcons a{
+        text-decoration: none;
+        color: rgb(176, 184, 188);
+    }
+
+    .footerSocialIcons img{
+        width: 4vw;
+        height: 4vw;
+    }
+}
